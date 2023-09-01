@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Code Coverage API Plugin
+Specification-Version: 4.7
+Implementation-Title: Code Coverage API Plugin
+Implementation-Version: 4.7.0
+Group-Id: io.jenkins.plugins
+Artifact-Id: code-coverage-api
+Short-Name: code-coverage-api
+Long-Name: Code Coverage API Plugin
+Url: https://github.com/jenkinsci/code-coverage-api-plugin
+Plugin-Version: 4.7.0
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: bootstrap5-api:5.2.2-4,checks-api:2.0.0,commons-lan
+ g3-api:3.12.0-36.vd97de6465d5b_,commons-text-api:1.10.0-36.vc008c8fcda_
+ 7b_,data-tables-api:1.13.3-4,echarts-api:5.4.0-4,font-awesome-api:6.3.0
+ -2,forensics-api:2.2.0,ionicons-api:45.vf54fca_5d2154,jquery3-api:3.7.0
+ -1,plugin-util-api:3.2.1,prism-api:1.29.0-7,pull-request-monitoring:1.7
+ .8;resolution:=optional,workflow-api:1213.v646def1087f9,workflow-multib
+ ranch:746.v05814d19c001,workflow-step-api:639.v6eca_cd8c04a_a_,display-
+ url-api:2.3.7,jackson2-api:2.15.1-344.v6eb_55303dc3e,token-macro:359.vb
+ _cde11682e0c;resolution:=optional
+Plugin-Developers: Shenyu Zheng:cizezsy:zsy19980307@gmail.com,Ullrich Ha
+ fner:uhafner:ullrich.hafner@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/code-coverage
+ -api-plugin.git
+Plugin-ScmTag: v4.7.0
+Plugin-ScmUrl: https://github.com/jenkinsci/code-coverage-api-plugin
+Plugin-GitHash: 21632bd3379aecd89749bd65f67160c433eec81c
+Implementation-Build: 21632bd3379aecd89749bd65f67160c433eec81c
+

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Conditional BuildStep
+Specification-Version: 1.4
+Implementation-Title: Conditional BuildStep
+Implementation-Version: 1.4.3
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: conditional-buildstep
+Short-Name: conditional-buildstep
+Long-Name: Conditional BuildStep
+Url: https://plugins.jenkins.io/conditional-buildstep/
+Plugin-Version: 1.4.3
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: maven-plugin:3.16;resolution:=optional,run-conditio
+ n:1.5,token-macro:359.vb_cde11682e0c
+Plugin-Developers: Dominik Bartholdi:imod:,Bap:bap:bap-jenkins@BapIT.co.
+ uk
+Plugin-License-Name: The MIT license
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/conditional-b
+ uildstep-plugin.git
+Plugin-ScmTag: conditional-buildstep-1.4.3
+Plugin-ScmUrl: https://github.com/jenkinsci/conditional-buildstep-plugin
+Plugin-GitHash: 9a5e180654f8d71ee6312973f148f85d48157e53
+Implementation-Build: 9a5e180654f8d71ee6312973f148f85d48157e53
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci.plugins</groupId>
+  <artifactId>conditional-buildstep</artifactId>
+  <version>1.4.3</version>
+  <packaging>hpi</packaging>
+  <name>Conditional BuildStep</name>
+  <description>A buildstep wrapping any number of other buildsteps, controlling their execution based on a defined condition.</description>
+  <url>https://plugins.jenkins.io/conditional-buildstep/</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT license</name>
+      <comments>All source code is under the MIT license.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>imod</id>
+      <name>Dominik Bartholdi</name>
+      <email></email>
+    </developer>
+    <developer>
+      <id>bap</id>
+      <name>Bap</name>
+      <email>bap-jenkins@BapIT.co.uk</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/conditional-buildstep-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/conditional-buildstep-plugin.git</developerConnection>
+    <tag>conditional-buildstep-1.4.3</tag>
+    <url>https://github.com/jenkinsci/conditional-buildstep-plugin</url>
+  </scm>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>https://issues.jenkins.io/</url>
+  </issueManagement>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>token-macro</artifactId>
+      <version>359.vb_cde11682e0c</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>run-condition</artifactId>
+      <version>1.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.main</groupId>
+      <artifactId>maven-plugin</artifactId>
+      <version>3.16</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.47</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

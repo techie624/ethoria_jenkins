@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: xUnit plugin
+Specification-Version: 3.1
+Implementation-Title: xUnit plugin
+Implementation-Version: 3.1.3
+Group-Id: org.jenkins-ci.plugins
+Short-Name: xunit
+Long-Name: xUnit plugin
+Url: https://github.com/jenkinsci/xunit-plugin
+Compatible-Since-Version: 3.0.0
+Plugin-Version: 3.1.3
+Hudson-Version: 2.319.3
+Jenkins-Version: 2.319.3
+Plugin-Dependencies: jaxb:2.3.6-1,dtkit-api:3.0.2,junit:1.54.3,structs:3
+ 24.va_f5d6774f3a_d
+Plugin-Developers: Gregory Boissinot:gboissinot:gregory.boissinot@gmail.
+ com,Nikolas Falco:nfalco79:nfalco79@hotmail.com
+Plugin-License-Name: MIT license
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/xunit-plugin
+

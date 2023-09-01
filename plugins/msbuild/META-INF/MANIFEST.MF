@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: rleon
+Build-Jdk: 1.8.0_242
+Extension-Name: msbuild
+Specification-Title: Allows using MSBuild to build .NET projects
+Implementation-Title: msbuild
+Implementation-Version: 1.30
+Group-Id: org.jenkins-ci.plugins
+Short-Name: msbuild
+Long-Name: Jenkins MSBuild Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/MSBuild+Plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.30
+Hudson-Version: 2.222
+Jenkins-Version: 2.222
+Plugin-Dependencies: structs:1.21
+Plugin-Developers: Gregory Boissinot:gbois:gregory.boissinot@gmail.com
+ ,Kyle Sweeney:kdsweeney:kyle.sweeney@valtech.com,Lionel Cabasson:mars
+ hall777:marshall777@gmail.com
+Plugin-License-Name: MIT license
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/plugin-pom/msbuild
+

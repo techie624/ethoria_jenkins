@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 11
+Specification-Title: Jenkins REPO plugin
+Specification-Version: 1.16
+Implementation-Title: Jenkins REPO plugin
+Implementation-Version: 1.16.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: repo
+Long-Name: Jenkins REPO plugin
+Url: https://github.com/jenkinsci/repo-plugin/blob/master/README.adoc
+Plugin-Version: 1.16.0
+Hudson-Version: 2.346.1
+Jenkins-Version: 2.346.1
+Plugin-Developers: Robert Sandell:rsandell:rsandell@cloudbees.com,Arvid 
+ E. Picciani:aep:aep-jenkins@exys.org,Bjarke Freund-Hansen:bjarkef:bjark
+ efh@gmail.com,Brad Larson:bklarson:bklarson@gmail.com
+Plugin-License-Name: MIT
+Plugin-License-Url: http://www.opensource.org/licenses/mit-license.php
+Plugin-ScmUrl: http://github.com/jenkinsci/repo-plugin
+

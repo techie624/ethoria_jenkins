@@ -1,0 +1,9 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.scm.CVSSCM_-DescriptorImpl plugin="cvs@2.19.1">
+  <compressionLevel>3</compressionLevel>
+  <privateKeyLocation>/var/jenkins_home/.ssh/id_rsa</privateKeyLocation>
+  <privateKeyPassword>{AQAAABAAAAAQ/FHxMjEP6zZfir2e4BEGD/XP4EJRwD/UjWQ/mqmNHCY=}</privateKeyPassword>
+  <knownHostsLocation>/var/jenkins_home/.ssh/known_hosts</knownHostsLocation>
+  <authTokens/>
+  <changelogEncoding>UTF-8</changelogEncoding>
+</hudson.scm.CVSSCM_-DescriptorImpl>

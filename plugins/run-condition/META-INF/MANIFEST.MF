@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Run Condition Plugin
+Specification-Version: 1.7
+Implementation-Title: Run Condition Plugin
+Implementation-Version: 1.7
+Plugin-Class: org.jenkins_ci.plugins.run_condition.RunConditionPlugin
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: run-condition
+Short-Name: run-condition
+Long-Name: Run Condition Plugin
+Url: https://github.com/jenkinsci/run-condition-plugin
+Plugin-Version: 1.7
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: token-macro:384.vf35b_f26814ec
+Plugin-Developers: Bap:bap:bap-jenkins@BapIT.co.uk
+Plugin-License-Name: The MIT license
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/run-condition
+ -plugin.git
+Plugin-ScmTag: run-condition-1.7
+Plugin-ScmUrl: https://github.com/jenkinsci/run-condition-plugin
+Plugin-GitHash: 59e31b96c705517ecb5ca56a554c09bdc1660908
+Implementation-Build: 59e31b96c705517ecb5ca56a554c09bdc1660908
+

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mads
+Build-Jdk: 1.8.0_292
+Extension-Name: clearcase
+Implementation-Title: clearcase
+Implementation-Version: 1.6.8
+Plugin-Class: hudson.plugins.clearcase.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Short-Name: clearcase
+Long-Name: Jenkins ClearCase Plug-in
+Url: https://plugins.jenkins.io/clearcase/
+Compatible-Since-Version: 1.0
+Plugin-Version: 1.6.8
+Hudson-Version: 1.625.1
+Jenkins-Version: 1.625.1
+Plugin-Developers: Praqma Josra:praqma_josra:josra@praqma.net
+

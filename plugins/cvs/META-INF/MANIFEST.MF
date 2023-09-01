@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: t.dyussyumbaev
+Build-Jdk: 1.8.0_311
+Extension-Name: cvs
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: cvs
+Implementation-Version: 2.19.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: cvs
+Long-Name: Jenkins CVS Plug-in
+Url: https://github.com/jenkinsci/cvs-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.19.1
+Hudson-Version: 2.235.5
+Jenkins-Version: 2.235.5
+Plugin-Dependencies: jsch:0.1.55.2
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:,Michael Clarke:mc1arke:
+Plugin-ScmUrl: https://github.com/jenkinsci/cvs-plugin
+

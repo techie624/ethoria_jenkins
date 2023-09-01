@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: DTKit 2 API.
+Specification-Version: 3.0
+Implementation-Title: DTKit 2 API.
+Implementation-Version: 3.0.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: dtkit-api
+Long-Name: DTKit 2 API.
+Url: http://wiki.jenkins-ci.org/display/JENKINS/DTKit
+Plugin-Version: 3.0.2
+Hudson-Version: 2.319.1
+Jenkins-Version: 2.319.1
+Plugin-Dependencies: jaxb:2.3.6-1
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Plugin-ScmUrl: https://github.com/jenkinsci/plugin-pom/dtkit-api
+

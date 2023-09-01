@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Git Parameter Plug-In
+Specification-Version: 0.9
+Implementation-Title: Git Parameter Plug-In
+Implementation-Version: 0.9.19
+Group-Id: org.jenkins-ci.tools
+Artifact-Id: git-parameter
+Short-Name: git-parameter
+Long-Name: Git Parameter Plug-In
+Url: https://github.com/jenkinsci/git-parameter-plugin
+Plugin-Version: 0.9.19
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: rebuild:320.v5a_0933a_e7d61;resolution:=optional,jq
+ uery3-api:3.6.1-2,workflow-support:839.v35e2736cfd5c,git:5.0.2
+Plugin-Developers: Boguslaw Klimas:klimas7:klimas7@gmail.com,Lukasz Milk
+ owski:lukanus:
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/git-parameter
+ -plugin.git
+Plugin-ScmTag: git-parameter-0.9.19
+Plugin-ScmUrl: https://github.com/jenkinsci/git-parameter-plugin
+Plugin-GitHash: d26ac6aa7fd3c9cd8220dbcc9728b03d22710b5d
+Implementation-Build: d26ac6aa7fd3c9cd8220dbcc9728b03d22710b5d
+
